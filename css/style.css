@@ -1,0 +1,48 @@
+.item-cards{
+    border-style: none;
+}
+
+.panda-card-footer{
+    background-color: white;
+    border: 0;
+}
+
+.categories img{
+    width: 80px;
+}
+
+.panda-slide .carousel-item{
+    background-color:#f5f5f5 ;
+    border-radius: 0.5em;
+}
+
+.navbar--custom-color a{
+    color: black;
+}
+
+.price-tag{
+    color: #76C27E;
+}
+
+
+
+/* css for secondpart.html */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "left-1 image-area image-area image-area"
+      ". image-area image-area image-area"
+      ". image-area image-area image-area";
+  }
+  
+  .left-1 { grid-area: left-1; }
+  .left-2 { grid-area: left-2; }
+  .left-3 { grid-area: left-3; }
+  
+  
+  .image-area { grid-area: image-area; }
+  
