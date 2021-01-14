@@ -1,8 +1,21 @@
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+}
+
+h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
 .item-cards{
     border-style: none;
 }
 
-.panda-card-footer{
+.bag-card-footer{
     background-color: white;
     border: 0;
 }
@@ -56,8 +69,27 @@
     border-radius: 10px;
 }
 .author-name{
-    color:rgba(1, 12, 12, 0.781)
+    color:rgba(1, 12, 12, 0.781);
+    text-decoration: none;
 }
+
+.form{
+    background: rgb(136, 129, 129);
+}
+.send-button{
+    background-color:aliceblue
+}
+
+
+/* form css */
+
+
+
+
+
+
+
+
 @media (max-width:992px){
     .blogs{
         grid-template-columns: repeat(1, 1fr);
